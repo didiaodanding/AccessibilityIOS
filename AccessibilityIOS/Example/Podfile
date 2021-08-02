@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'AccessibilityIOS_Example' do
+  pod 'AccessibilityIOS', :path => '../'
+
+  target 'AccessibilityIOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

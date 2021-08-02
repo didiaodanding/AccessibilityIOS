@@ -1,0 +1,6 @@
+framework module Pods_AccessibilityIOS_Example {
+  umbrella header "Pods-AccessibilityIOS_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

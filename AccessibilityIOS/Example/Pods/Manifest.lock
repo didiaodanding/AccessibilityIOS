@@ -1,0 +1,16 @@
+PODS:
+  - AccessibilityIOS (0.1.0)
+
+DEPENDENCIES:
+  - AccessibilityIOS (from `../`)
+
+EXTERNAL SOURCES:
+  AccessibilityIOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AccessibilityIOS: 83d820c0ea0e0cca25434cbbb86e6c13f940e38c
+
+PODFILE CHECKSUM: b76ef500096f5ea50841fe81f53f3f86a0a70d99
+
+COCOAPODS: 1.9.3
