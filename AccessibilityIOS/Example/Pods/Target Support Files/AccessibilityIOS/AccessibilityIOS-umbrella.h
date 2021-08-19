@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "UIColor+Utils.h"
+#import "UIView+Tree.h"
+#import "UIView-Debugging.h"
 
 FOUNDATION_EXPORT double AccessibilityIOSVersionNumber;
 FOUNDATION_EXPORT const unsigned char AccessibilityIOSVersionString[];

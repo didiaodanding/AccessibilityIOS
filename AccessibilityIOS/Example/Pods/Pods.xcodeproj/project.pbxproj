@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C13D987C254958C10923DA94D0D6F96 /* UIView+Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D8CC508BBF28FB8624DC153A5C09BE /* UIView+Tree.m */; };
 		18FF8E34D4EF7570C25B4996B12352B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		2243EAA2BD04F1A4A6D4DAF4E993038B /* Pods-AccessibilityIOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65732DF04ADEE21455C5808FC86BBB43 /* Pods-AccessibilityIOS_Example-dummy.m */; };
 		488DB0803BFE3A43AED862F8E6A013BD /* Pods-AccessibilityIOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C31085D80F3DC74A13B06EFF2BA48E84 /* Pods-AccessibilityIOS_Tests-dummy.m */; };
-		669FB5C6ACA4719749167F1B59C3D839 /* AccessibilityIOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F0BD688CF149CA939ED4EC9C67AF04F /* AccessibilityIOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73EAEDEA279A9F2F254DD382B87FAFC6 /* AccessibilityIOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F8802AB27647E271B74A7CA9F58AA8 /* AccessibilityIOS-dummy.m */; };
-		79047DD3A871E976811D5F878153E84B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		7A0B4FCEDE5F4E27E2248B907A737126 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2EB646BA06E83286504BBE92F021EC /* ReplaceMe.m */; };
+		555F32F31438D9D8191B47970B86031A /* UIView+Tree.h in Headers */ = {isa = PBXBuildFile; fileRef = D7D125B6CA106159536030905D4BC215 /* UIView+Tree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AF766D16778CFB9C1F1DF3E3D0C89BE /* UIView-Debugging.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A26C3C5FE23F66DB6778FE8C71EA644 /* UIView-Debugging.m */; };
+		8094EC99C2F9F2B209FD30A1CC5C0C74 /* UIColor+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 658C45412F4A3D3F2D5713DA2A6DAACE /* UIColor+Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8BBE7994EFC3E27A94AE89E9D085F249 /* Pods-AccessibilityIOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B80A1EBB09B36C588496F208A15767AF /* Pods-AccessibilityIOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A64243AD652DBE60F0B398B1A0092D63 /* AccessibilityIOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 616BFA7B5935E4D75BAF0FA0BFB2BC57 /* AccessibilityIOS-dummy.m */; };
 		B12AE4506ACC5839CCCEED2C887FBAD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B98227207642C8E50B576E3AD668CF63 /* UIView-Debugging.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADC5E7F7C70077AF4B6A85A6121FCFE /* UIView-Debugging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C03419A7D4B20F0BA9EDE443084906D7 /* AccessibilityIOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB22292A2E9077D13563F90B1083E3BC /* AccessibilityIOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3382360F4D018B6DCEE9A98E7B4155F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EB2E54D3A07E047DEF77FE24E2E6E799 /* UIColor+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D984B8AA47C8944EC84318530021677 /* UIColor+Utils.m */; };
 		FACDED75765F4BCCA8BA5A74CFBE1605 /* Pods-AccessibilityIOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BDF6567F6656EB6E262657CE848759E /* Pods-AccessibilityIOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -37,42 +42,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A7BBA0C3841B54D68AEA586D0F7A3AA /* AccessibilityIOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AccessibilityIOS.modulemap; sourceTree = "<group>"; };
+		02E6C2B8CD479E70D63F7669FFE93F34 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0BB89647425E0FA7A9001DABC390BF86 /* Pods-AccessibilityIOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AccessibilityIOS_Example-Info.plist"; sourceTree = "<group>"; };
+		1062EB0995FDC5312FB9B8A5C5DEDAC2 /* AccessibilityIOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AccessibilityIOS.modulemap; sourceTree = "<group>"; };
 		19EA21CCDAF9C64358AC554B889BCDB9 /* Pods-AccessibilityIOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AccessibilityIOS_Tests-Info.plist"; sourceTree = "<group>"; };
 		1C21F1F81CAB4F54296BF9412CEF43B2 /* Pods_AccessibilityIOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccessibilityIOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		240C116145D0267FF67990E97938DB88 /* Pods-AccessibilityIOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AccessibilityIOS_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2BC7164D87DDAB2B8BD956BC2D86DD40 /* Pods-AccessibilityIOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AccessibilityIOS_Example.modulemap"; sourceTree = "<group>"; };
 		2FA677A1FE58B0B1E25C07E7106BDB4D /* Pods-AccessibilityIOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AccessibilityIOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		331267EE4197D7798DA9123250CEF7E4 /* AccessibilityIOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AccessibilityIOS-Info.plist"; sourceTree = "<group>"; };
-		370863DB5DAFD2CE5238CC923895656C /* AccessibilityIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AccessibilityIOS.release.xcconfig; sourceTree = "<group>"; };
 		3CE5AAE7ECBADDE595A98B554D350125 /* Pods-AccessibilityIOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AccessibilityIOS_Example.release.xcconfig"; sourceTree = "<group>"; };
-		491EE275AD27A471C5C8BDDCD302E699 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4BDF6567F6656EB6E262657CE848759E /* Pods-AccessibilityIOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AccessibilityIOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		51238615C1ADCDED2B0B02B046DF473A /* AccessibilityIOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AccessibilityIOS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5D28F75A9ABF6E842B0798296712B020 /* Pods-AccessibilityIOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AccessibilityIOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		616BFA7B5935E4D75BAF0FA0BFB2BC57 /* AccessibilityIOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AccessibilityIOS-dummy.m"; sourceTree = "<group>"; };
 		65732DF04ADEE21455C5808FC86BBB43 /* Pods-AccessibilityIOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AccessibilityIOS_Example-dummy.m"; sourceTree = "<group>"; };
+		658C45412F4A3D3F2D5713DA2A6DAACE /* UIColor+Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utils.h"; sourceTree = "<group>"; };
+		69515C61CEEEAA0685D54E01FEE057BB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		70BB0AE625DFA5F5E0A358A75928C7D7 /* Pods-AccessibilityIOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AccessibilityIOS_Tests.modulemap"; sourceTree = "<group>"; };
-		79F8802AB27647E271B74A7CA9F58AA8 /* AccessibilityIOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AccessibilityIOS-dummy.m"; sourceTree = "<group>"; };
-		7F0BD688CF149CA939ED4EC9C67AF04F /* AccessibilityIOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AccessibilityIOS-umbrella.h"; sourceTree = "<group>"; };
+		7A26C3C5FE23F66DB6778FE8C71EA644 /* UIView-Debugging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView-Debugging.m"; sourceTree = "<group>"; };
+		7D984B8AA47C8944EC84318530021677 /* UIColor+Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utils.m"; sourceTree = "<group>"; };
+		8ADC5E7F7C70077AF4B6A85A6121FCFE /* UIView-Debugging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView-Debugging.h"; sourceTree = "<group>"; };
 		94BEC6E6E5088B476EB1C156CDB63F02 /* Pods-AccessibilityIOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AccessibilityIOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9717E225EF7E3ABB1E513D0EF4825A32 /* Pods-AccessibilityIOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AccessibilityIOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AE2EB646BA06E83286504BBE92F021EC /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = AccessibilityIOS/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		AF1430DE1B1D7B52EAA7D67AEA0A687B /* Pods-AccessibilityIOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AccessibilityIOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B0620D62897F4C507A99A0F525014BA6 /* AccessibilityIOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AccessibilityIOS-Info.plist"; sourceTree = "<group>"; };
 		B52EB2BB8B8F0EEB6E3DB5B0984FEA3D /* AccessibilityIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AccessibilityIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B646AAFAEAAE7D0A7F4833C3F11C7747 /* AccessibilityIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AccessibilityIOS.debug.xcconfig; sourceTree = "<group>"; };
 		B80A1EBB09B36C588496F208A15767AF /* Pods-AccessibilityIOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AccessibilityIOS_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B98714D8192A838DFDCAA40F70B1E7A1 /* Pods-AccessibilityIOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AccessibilityIOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB22292A2E9077D13563F90B1083E3BC /* AccessibilityIOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AccessibilityIOS-umbrella.h"; sourceTree = "<group>"; };
+		C1D8CC508BBF28FB8624DC153A5C09BE /* UIView+Tree.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Tree.m"; sourceTree = "<group>"; };
 		C31085D80F3DC74A13B06EFF2BA48E84 /* Pods-AccessibilityIOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AccessibilityIOS_Tests-dummy.m"; sourceTree = "<group>"; };
-		D51A62E2DB98005FA99B1BDFE7EA37ED /* AccessibilityIOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AccessibilityIOS.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		D8A3ACFE0665420A8A8BF43B6FFB91EB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D7D125B6CA106159536030905D4BC215 /* UIView+Tree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Tree.h"; sourceTree = "<group>"; };
+		DBEB8B94C27DCCD7824BC6AE44AF15AA /* AccessibilityIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AccessibilityIOS.release.xcconfig; sourceTree = "<group>"; };
 		DC91057A2D94F154E389DFCFD8541756 /* Pods-AccessibilityIOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AccessibilityIOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DE84D39383BCB3D55A2FE36D4C5A3DB2 /* AccessibilityIOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AccessibilityIOS-prefix.pch"; sourceTree = "<group>"; };
+		E962E4C71B11ECA16BA2E9ED044A4580 /* AccessibilityIOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AccessibilityIOS-prefix.pch"; sourceTree = "<group>"; };
 		F04130C46DC612CF750B43FF57DE4389 /* Pods_AccessibilityIOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccessibilityIOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77608DA5B031DDD1C91488AB15B9EF4 /* AccessibilityIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AccessibilityIOS.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		658B09D9C6312FFE5E3A5A8CC37513ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3382360F4D018B6DCEE9A98E7B4155F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B74C7DC90003519069D83E36D3EAF991 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -89,14 +107,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F13F49F4B04AD9E626517F4FB380A689 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				79047DD3A871E976811D5F878153E84B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -108,6 +118,21 @@
 				F04130C46DC612CF750B43FF57DE4389 /* Pods_AccessibilityIOS_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		0F41B98E5744324A1191B9FE8F26E058 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1062EB0995FDC5312FB9B8A5C5DEDAC2 /* AccessibilityIOS.modulemap */,
+				616BFA7B5935E4D75BAF0FA0BFB2BC57 /* AccessibilityIOS-dummy.m */,
+				B0620D62897F4C507A99A0F525014BA6 /* AccessibilityIOS-Info.plist */,
+				E962E4C71B11ECA16BA2E9ED044A4580 /* AccessibilityIOS-prefix.pch */,
+				BB22292A2E9077D13563F90B1083E3BC /* AccessibilityIOS-umbrella.h */,
+				F77608DA5B031DDD1C91488AB15B9EF4 /* AccessibilityIOS.debug.xcconfig */,
+				DBEB8B94C27DCCD7824BC6AE44AF15AA /* AccessibilityIOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AccessibilityIOS";
 			sourceTree = "<group>";
 		};
 		4A3DC47BF0D95849A7F14EDBC19530A2 /* Pods-AccessibilityIOS_Tests */ = {
@@ -126,15 +151,25 @@
 			path = "Target Support Files/Pods-AccessibilityIOS_Tests";
 			sourceTree = "<group>";
 		};
-		7FBE54517CAF55A89AB30D9379E6CB3F /* AccessibilityIOS */ = {
+		89D2960526CCB30C007846CF /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				AE2EB646BA06E83286504BBE92F021EC /* ReplaceMe.m */,
-				A6C289A8826CBFECD2F59383B587CBA0 /* Pod */,
-				DB235A268627DE659148FFCC5B2E6A82 /* Support Files */,
+				D7D125B6CA106159536030905D4BC215 /* UIView+Tree.h */,
+				C1D8CC508BBF28FB8624DC153A5C09BE /* UIView+Tree.m */,
+				8ADC5E7F7C70077AF4B6A85A6121FCFE /* UIView-Debugging.h */,
+				7A26C3C5FE23F66DB6778FE8C71EA644 /* UIView-Debugging.m */,
 			);
-			name = AccessibilityIOS;
-			path = ../..;
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		993E501B725D390EA10DDDC52015F403 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				89D2960526CCB30C007846CF /* UIView */,
+				F78062E581713658B6C595D058092F23 /* UIColor */,
+			);
+			name = Category;
+			path = Core/Category;
 			sourceTree = "<group>";
 		};
 		A1E2601AC017F0B79A9C0A5D11FEEA6F /* Targets Support Files */ = {
@@ -146,14 +181,23 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A6C289A8826CBFECD2F59383B587CBA0 /* Pod */ = {
+		AB1442C22FA5B414D0610B08E7019F8F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D51A62E2DB98005FA99B1BDFE7EA37ED /* AccessibilityIOS.podspec */,
-				D8A3ACFE0665420A8A8BF43B6FFB91EB /* LICENSE */,
-				491EE275AD27A471C5C8BDDCD302E699 /* README.md */,
+				B3E6A8A3A7D103D0CD680B492B5AFC6E /* AccessibilityIOS */,
 			);
-			name = Pod;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B3E6A8A3A7D103D0CD680B492B5AFC6E /* AccessibilityIOS */ = {
+			isa = PBXGroup;
+			children = (
+				993E501B725D390EA10DDDC52015F403 /* Category */,
+				D2458EF42831317878D98F316165B3C1 /* Pod */,
+				0F41B98E5744324A1191B9FE8F26E058 /* Support Files */,
+			);
+			name = AccessibilityIOS;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -168,7 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D662BE496224F01C5A5FE258179AC1C5 /* Development Pods */,
+				AB1442C22FA5B414D0610B08E7019F8F /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				0771A34B9B208FBEB2A890C28A900D9A /* Products */,
 				A1E2601AC017F0B79A9C0A5D11FEEA6F /* Targets Support Files */,
@@ -181,6 +225,16 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2458EF42831317878D98F316165B3C1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				51238615C1ADCDED2B0B02B046DF473A /* AccessibilityIOS.podspec */,
+				69515C61CEEEAA0685D54E01FEE057BB /* LICENSE */,
+				02E6C2B8CD479E70D63F7669FFE93F34 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		D3A4A79AC6B29D02A7C6FD6BD11C75BC /* Pods-AccessibilityIOS_Example */ = {
@@ -200,27 +254,13 @@
 			path = "Target Support Files/Pods-AccessibilityIOS_Example";
 			sourceTree = "<group>";
 		};
-		D662BE496224F01C5A5FE258179AC1C5 /* Development Pods */ = {
+		F78062E581713658B6C595D058092F23 /* UIColor */ = {
 			isa = PBXGroup;
 			children = (
-				7FBE54517CAF55A89AB30D9379E6CB3F /* AccessibilityIOS */,
+				658C45412F4A3D3F2D5713DA2A6DAACE /* UIColor+Utils.h */,
+				7D984B8AA47C8944EC84318530021677 /* UIColor+Utils.m */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		DB235A268627DE659148FFCC5B2E6A82 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0A7BBA0C3841B54D68AEA586D0F7A3AA /* AccessibilityIOS.modulemap */,
-				79F8802AB27647E271B74A7CA9F58AA8 /* AccessibilityIOS-dummy.m */,
-				331267EE4197D7798DA9123250CEF7E4 /* AccessibilityIOS-Info.plist */,
-				DE84D39383BCB3D55A2FE36D4C5A3DB2 /* AccessibilityIOS-prefix.pch */,
-				7F0BD688CF149CA939ED4EC9C67AF04F /* AccessibilityIOS-umbrella.h */,
-				B646AAFAEAAE7D0A7F4833C3F11C7747 /* AccessibilityIOS.debug.xcconfig */,
-				370863DB5DAFD2CE5238CC923895656C /* AccessibilityIOS.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AccessibilityIOS";
+			path = UIColor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,19 +274,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		93D8C7421005B19ECB02C2FA9C256A64 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				669FB5C6ACA4719749167F1B59C3D839 /* AccessibilityIOS-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A502155EE5BBB4CBB87C62E9A62DCFA4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FACDED75765F4BCCA8BA5A74CFBE1605 /* Pods-AccessibilityIOS_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6B5EE7F074D4C28A1C1A30FB685C041 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03419A7D4B20F0BA9EDE443084906D7 /* AccessibilityIOS-umbrella.h in Headers */,
+				8094EC99C2F9F2B209FD30A1CC5C0C74 /* UIColor+Utils.h in Headers */,
+				555F32F31438D9D8191B47970B86031A /* UIView+Tree.h in Headers */,
+				B98227207642C8E50B576E3AD668CF63 /* UIView-Debugging.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,12 +317,12 @@
 		};
 		CA182A6AA7FA4BF539BAED26A140B696 /* AccessibilityIOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDAF45AAC186B564BC3B5E1127359BAF /* Build configuration list for PBXNativeTarget "AccessibilityIOS" */;
+			buildConfigurationList = 2FA0FCFC09A302D25175511C7ECD438F /* Build configuration list for PBXNativeTarget "AccessibilityIOS" */;
 			buildPhases = (
-				93D8C7421005B19ECB02C2FA9C256A64 /* Headers */,
-				8AC8A975D509ADF76486390EA29A06C6 /* Sources */,
-				F13F49F4B04AD9E626517F4FB380A689 /* Frameworks */,
-				395D1482EF1C41A8C29C24DD3B9312E4 /* Resources */,
+				D6B5EE7F074D4C28A1C1A30FB685C041 /* Headers */,
+				E189102E5170B4052A0B5B341D770971 /* Sources */,
+				658B09D9C6312FFE5E3A5A8CC37513ED /* Frameworks */,
+				42CB897B748A7D2872F120D09214DBE4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -339,7 +382,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		395D1482EF1C41A8C29C24DD3B9312E4 /* Resources */ = {
+		42CB897B748A7D2872F120D09214DBE4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,20 +414,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8AC8A975D509ADF76486390EA29A06C6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				73EAEDEA279A9F2F254DD382B87FAFC6 /* AccessibilityIOS-dummy.m in Sources */,
-				7A0B4FCEDE5F4E27E2248B907A737126 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D5F555EDDE6DDA404C6FCA4958B591C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				488DB0803BFE3A43AED862F8E6A013BD /* Pods-AccessibilityIOS_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E189102E5170B4052A0B5B341D770971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64243AD652DBE60F0B398B1A0092D63 /* AccessibilityIOS-dummy.m in Sources */,
+				EB2E54D3A07E047DEF77FE24E2E6E799 /* UIColor+Utils.m in Sources */,
+				0C13D987C254958C10923DA94D0D6F96 /* UIView+Tree.m in Sources */,
+				7AF766D16778CFB9C1F1DF3E3D0C89BE /* UIView-Debugging.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,9 +552,41 @@
 			};
 			name = Release;
 		};
-		7B0D720D87CA6C5C8523C3702E28E68A /* Debug */ = {
+		7C3692D49476947039A2521BB4AFA20A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B646AAFAEAAE7D0A7F4833C3F11C7747 /* AccessibilityIOS.debug.xcconfig */;
+			baseConfigurationReference = DBEB8B94C27DCCD7824BC6AE44AF15AA /* AccessibilityIOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AccessibilityIOS/AccessibilityIOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AccessibilityIOS/AccessibilityIOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AccessibilityIOS/AccessibilityIOS.modulemap";
+				PRODUCT_MODULE_NAME = AccessibilityIOS;
+				PRODUCT_NAME = AccessibilityIOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7FE3460C1D36AFACCA0CC0EB14873B86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F77608DA5B031DDD1C91488AB15B9EF4 /* AccessibilityIOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -694,41 +771,18 @@
 			};
 			name = Debug;
 		};
-		FE00526BB175F742BD77EA5CF7FD3C09 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 370863DB5DAFD2CE5238CC923895656C /* AccessibilityIOS.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AccessibilityIOS/AccessibilityIOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AccessibilityIOS/AccessibilityIOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AccessibilityIOS/AccessibilityIOS.modulemap";
-				PRODUCT_MODULE_NAME = AccessibilityIOS;
-				PRODUCT_NAME = AccessibilityIOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2FA0FCFC09A302D25175511C7ECD438F /* Build configuration list for PBXNativeTarget "AccessibilityIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE3460C1D36AFACCA0CC0EB14873B86 /* Debug */,
+				7C3692D49476947039A2521BB4AFA20A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -752,15 +806,6 @@
 			buildConfigurations = (
 				81BF38468852A08033B2FF0793DCB0F6 /* Debug */,
 				63AC0CC368C2C13A589C1EFBCCC70B37 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CDAF45AAC186B564BC3B5E1127359BAF /* Build configuration list for PBXNativeTarget "AccessibilityIOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7B0D720D87CA6C5C8523C3702E28E68A /* Debug */,
-				FE00526BB175F742BD77EA5CF7FD3C09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

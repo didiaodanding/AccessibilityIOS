@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface ACCViewController : UIViewController
+@interface ACCViewController : UIViewController<UITableViewDelegate , UITableViewDataSource , UIScrollViewDelegate>
 
 @end

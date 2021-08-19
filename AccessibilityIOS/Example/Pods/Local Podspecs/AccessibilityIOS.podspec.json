@@ -1,8 +1,7 @@
 {
   "name": "AccessibilityIOS",
   "version": "0.1.0",
-  "summary": "A short description of AccessibilityIOS.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "AccessibilityIOS is a visually impaired tool",
   "homepage": "https://github.com/haleli/AccessibilityIOS",
   "license": {
     "type": "MIT",
@@ -11,12 +10,15 @@
   "authors": {
     "haleli": "haleli@tencent.com"
   },
+  "social_media_url": "https://github.com/haleli/AccessibilityIOS",
+  "platforms": {
+    "ios": "9.0"
+  },
   "source": {
     "git": "https://github.com/haleli/AccessibilityIOS.git",
     "tag": "0.1.0"
   },
-  "platforms": {
-    "ios": "9.0"
-  },
-  "source_files": "AccessibilityIOS/Classes/**/*"
+  "requires_arc": true,
+  "source_files": "Core/**/*.{h,m,mm,mlmodel}",
+  "public_header_files": "Core/**/*.h"
 }
